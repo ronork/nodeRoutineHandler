@@ -1,0 +1,26 @@
+{
+  "name": "nodeRoutineHandler",
+  "version": "1.0.0",
+  "description": "Handle Child Node Processes via this package",
+  "main": "nodeRoutineHandler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronork/nodeRoutineHandler.git"
+  },
+  "keywords": [
+    "node",
+    "process",
+    "handler",
+    "restart",
+    "nodemon"
+  ],
+  "author": "Rohan Grover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronork/nodeRoutineHandler/issues"
+  },
+  "homepage": "https://github.com/ronork/nodeRoutineHandler#readme"
+}
