@@ -1,6 +1,6 @@
 {
   "name": "node-routine-handler",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Handle Child Node Processes via this package",
   "main": "nodeRoutineHandler.js",
   "scripts": {

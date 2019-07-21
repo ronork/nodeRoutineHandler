@@ -18,11 +18,26 @@ $ npm install node-routine-handler
 
 
 
-### Usage
+## Usage 
 
+#### Initialise
 ```sh
 var nodeMaster  = require('node-routine-handler');
-nodeMaster(__state='',procInstance='',runCmd='node server')
+```
+
+#### Start
+```sh
+var procInstance = nodeMaster('start');
+```
+
+#### Restart
+```sh
+var new_procInstance = nodeMaster('restart',procInstance);
+```
+
+#### Stop
+```sh
+nodeMaster('stop',procInstance);
 ```
 
 - __ __state__: 'start'|'stop'|'restart'
