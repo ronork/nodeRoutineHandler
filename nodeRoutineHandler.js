@@ -7,6 +7,7 @@ let node_i = pro.exec(runCmd, (err, stdout, stderr) => {
       console.error(err);
       return;
     }
+    console.log(stdout);
   });
   return node_i;
 }
@@ -24,7 +25,7 @@ else
 }
 function stop(node_i)
 {
-    node_i.kill(); 
+    node_i.kill();
 }
 function nodeMaster(__state='',procInstance='',runCmd='node server')
 {
@@ -43,7 +44,7 @@ function nodeMaster(__state='',procInstance='',runCmd='node server')
           if(procInstance)
           {
             process_i = restart(procInstance,runCmd);
-            return process_i;  
+            return process_i;
           }
           else
           {
@@ -69,6 +70,3 @@ function nodeMaster(__state='',procInstance='',runCmd='node server')
   }
 }
 module.exports = nodeMaster;
-
-
-
